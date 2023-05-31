@@ -20,7 +20,7 @@ function BigCard({ reportTypeClick, reportType }) {
       <div className="reportType">
         <p
           onClick={handleClick}
-          className={reportType === "daily" ? "bigCard_reportType_active" : ""}
+          className={reportType === "Daily" ? "bigCard_reportType_active" : ""}
         >
           Daily
         </p>

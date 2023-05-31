@@ -11,7 +11,7 @@ import study from "./images/icon-study.svg";
 import work from "./images/icon-work.svg";
 
 function App() {
-  const [reportType, setReportType] = useState("daily");
+  const [reportType, setReportType] = useState("Daily");
 
   const reportTypeClick = (e) => {
     setReportType(e.target.textContent);
