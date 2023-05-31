@@ -1,0 +1,144 @@
+.card {
+    width: 200px;
+    height: 200px;
+}
+
+.card_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_title_text {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card_current {
+    font-size: 34px;
+    font-weight: normal;
+    line-height: 35px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.card_previous {
+    font-size: 12px;
+    margin: 0;
+    color: hsl(235, 45%, 61%);
+}
+
+.back_card {
+    border-radius: 10px;
+}
+
+.front_card {
+    border-radius: 10px;
+    background-color: hsl(235, 46%, 20%);
+    padding: 20px;
+    height: 170px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+}
+
+.card_ellipsis {
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 3px;
+}
+
+.cardImage_container {
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+.cardImage {
+    width: 50px;
+    height: 50px;
+    margin-top: -5px;
+    margin-bottom: -12px;
+    padding-right: 10px;
+}
+
+@media only screen and (max-width: 931px) {
+    .card {
+        width: 200px;
+        height: auto;
+    }
+
+    .card_title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .card_title_text {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .card_hours {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .card_current {
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 20px;
+        margin: 0;
+        margin-bottom: 5px;
+    }
+
+    .card_previous {
+        font-size: 10px;
+        margin: 0;
+        color: hsl(235, 45%, 61%);
+    }
+
+    .back_card {
+        border-radius: 10px;
+    }
+
+    .front_card {
+        padding: 10px 20px;
+        height: auto;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: relative;
+    }
+
+    .card_ellipsis {
+        background-repeat: no-repeat;
+        width: 15px;
+        height: 3px;
+    }
+
+    .cardImage_container {
+        display: flex;
+        justify-content: flex-end;
+        overflow: hidden;
+    }
+
+    .cardImage {
+        width: 40px;
+        height: 40px;
+        margin-top: -5px;
+        margin-bottom: -12px;
+        padding-right: 10px;
+    }
+}

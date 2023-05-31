@@ -1,0 +1,100 @@
+.profileImage {
+    margin-bottom: 20px;
+}
+
+.profile {
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.bigCard_profile {
+    background-color: hsl(246, 80%, 60%);
+    text-align: left;
+
+    border-radius: 10px;
+    padding: 20px;
+    height: 65%;
+}
+
+.bigCard_span {
+    color: hsl(236, 100%, 87%);
+    font-size: 10px;
+    margin: 0;
+}
+
+.bigCard_title {
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0;
+    color: #f2f2f2;
+}
+
+.bigCard {
+    border-radius: 10px;
+    background-color: hsl(235, 46%, 20%);
+    text-align: left;
+    color: hsl(235, 45%, 61%);
+    font-size: 10px;
+    width: 200px;
+}
+
+.bigCard_reportType_active {
+    color: #f2f2f2;
+}
+
+.reportType {
+    padding: 20px;
+}
+
+@media only screen and (max-width: 931px) {
+    .profileImage {
+        margin-bottom: 0;
+    }
+
+    .bigCard_profile {
+        padding: 10px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .profile {
+        width: 60px;
+    }
+
+    .bigCard_span {
+        color: hsl(236, 100%, 87%);
+        font-size: 10px;
+        margin: 0;
+    }
+
+    .bigCard_title {
+        font-size: 12px;
+        line-height: 20px;
+        margin: 0;
+        color: #f2f2f2;
+    }
+
+    .bigCard {
+        border-radius: 10px;
+        background-color: hsl(235, 46%, 20%);
+        text-align: left;
+        color: hsl(235, 45%, 61%);
+        font-size: 10px;
+        width: 200px;
+    }
+
+    .bigCard_reportType_active {
+        color: #f2f2f2;
+    }
+
+    .reportType {
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+}
